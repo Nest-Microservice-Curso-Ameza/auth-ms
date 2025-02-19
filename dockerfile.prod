@@ -51,3 +51,9 @@ USER node
 EXPOSE 3000
 
 CMD [ "node", "dist/main.js" ]
+
+
+
+# comando para generar la imagen 
+# docker build -f dockerfile.prod -t auth-ms .
+
